@@ -1,6 +1,6 @@
+
 import 'dart:convert';
 import 'package:flutter/material.dart';
-import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:http/http.dart' as http;
 
 class ChatPage extends StatefulWidget {
@@ -103,7 +103,7 @@ class _ChatPageState extends State<ChatPage> {
                     var url = Uri.https("api.openai.com", "/v1/chat/completions");
                     Map<String, String> userHeaders = {
                       "Content-type": "application/json",
-                      "Authorization": "Bearer ${dotenv.env['OPENAI_API_KEY']}"
+                      "Authorization": "Bearer"
                     };
                     http
                         .post(url,
@@ -145,3 +145,4 @@ class _ChatPageState extends State<ChatPage> {
     );
   }
 }
+
