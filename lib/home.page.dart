@@ -21,7 +21,7 @@ class HomePage extends StatelessWidget {
                 padding: const EdgeInsets.all(10),
                 child: Column(
                   children: [
-                    Image.asset('images/chat_ai.png'),
+                    Image.asset('images/ChatBot_AI.png'),
                     SizedBox(
                       height: 10,
                     ),

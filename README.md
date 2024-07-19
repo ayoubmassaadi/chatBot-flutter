@@ -1,4 +1,5 @@
 # chatbot
+<img src="images/chatBot_1.png" alt="Alt text" width="300"/>
 
 A new Flutter project.
 
