@@ -13,8 +13,9 @@ class ChatPage extends StatefulWidget {
 class _ChatPageState extends State<ChatPage> {
   List<dynamic> data = [
     {'message': 'Hello', 'type': 'user'},
-    {'message': 'How can I help you?', 'type': 'assistant'},
-    {'message': 'Give me information about you.', 'type': 'user'},
+    {'message': 'Hello How are You ?', 'type': 'assistant'},
+    {'message': 'What Can I Do For You?', 'type': 'assistant'},
+    {'message': 'Give me information .', 'type': 'user'},
     {'message': 'I am a helpful assistant.', 'type': 'assistant'},
   ];
 
@@ -54,7 +55,7 @@ class _ChatPageState extends State<ChatPage> {
                                   padding: EdgeInsets.all(10),
                                   color: (isUser)
                                       ? Color.fromARGB(50, 0, 255, 0)
-                                      : Colors.white,
+                                      : Color.fromARGB(255, 109, 208, 238),
                                 ),
                               ),
                             ),
