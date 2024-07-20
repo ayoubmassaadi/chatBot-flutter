@@ -1,7 +1,7 @@
 # chatbot App
-<img src="images/chatBot_1.png" alt="Alt text" width="800"/>
+<img src="images/chatBot_1.png" alt="Alt text" width="500"/>
 <br>
-<img src="images/chatBot_2.png" alt="Alt text" width="800"/>
+<img src="images/chatBot_2.png" alt="Alt text" width="500"/>
 
 
 A new Flutter project.
